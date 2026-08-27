@@ -1,14 +1,14 @@
 cask "planetary" do
-  version "1.9.9.362"
+  version "2.0.0.370"
 
   on_arm do
-    sha256 "bbcc475715608e65676a8d4d00df8003d0196f82b9c5570b700cdc899c9fa260"
+    sha256 "0e38262752b9ce433d21359fd4e241286ccebad8a18e4ee439c56029478acc02"
 
     url "https://github.com/mveinot/transmission-control/releases/download/v#{version}/Planetary-#{version}-macOS-arm64.dmg",
         verified: "github.com/mveinot/transmission-control/"
   end
   on_intel do
-    sha256 "1ed8c629e9a57db9d7536fbfe9df8be844428f206f5830248a8d9acbff07aace"
+    sha256 "04ab6e9005afc16f9f928cf9db913f65e21381bdc3cc1cd46fc9e4fffbe122e6"
 
     url "https://github.com/mveinot/transmission-control/releases/download/v#{version}/Planetary-#{version}-macOS-x86_64.dmg",
         verified: "github.com/mveinot/transmission-control/"
