@@ -1,9 +1,8 @@
 cask "planetary" do
-  version "2.0.0.376"
-  sha256 "fd0dd6fa10d9a3098f6ac554cf6419ee96b01a54e16e3b59b504fb6c5f4e0cf8"
+  version "2.0.1.380"
+  sha256 "4f323ea555222bc26f455c4ecbd298d2d53db8b40ae0d69df01686d52569f344"
 
-  url "https://github.com/mveinot/transmission-control/releases/download/v#{version}/Planetary-#{version}-macOS-universal.dmg",
-      verified: "github.com/mveinot/transmission-control/"
+  url "https://github.com/mveinot/transmission-control/releases/download/v#{version}/Planetary-#{version}-macOS-universal.dmg"
   name "Planetary"
   desc "Remote GUI client for Transmission and qBittorrent"
   homepage "https://planetary.mvgrafx.net/"
