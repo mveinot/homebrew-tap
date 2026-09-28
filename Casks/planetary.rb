@@ -1,6 +1,6 @@
 cask "planetary" do
-  version "2.3.0.425"
-  sha256 "704ad3b026db85567c66813866a444349fda66664ced8dcc0d54e63486db690a"
+  version "2.4.0.439"
+  sha256 "8f00e94aa5b188da009684734f20e435fa475789ef650d1f9a209e961443c7c4"
 
   url "https://github.com/mveinot/transmission-control/releases/download/v#{version}/Planetary-#{version}-macOS-universal.dmg"
   name "Planetary"
